@@ -12,7 +12,7 @@ word16 checksum(byte *addr, word32 count);
 void main(void){
   byte        buff[BUFFER_LEN];
   word16      check;
-  word32      i;
+  word32      i = 0;
 
   FILE *archivo;
   FILE *escritura;
